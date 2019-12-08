@@ -12,10 +12,6 @@ def filtro_2D(image):
     dados_imagem(filter2D)
     mostrar_imagem(filter2D)
     return filter2D
-
-def mostrar_imagem(image):
-    cv2.imshow("Imagem",image)
-    cv2.waitKey(0)
     
 def dados_imagem(image):
     print()
@@ -25,16 +21,3 @@ def dados_imagem(image):
     print("Canais {} pixels".format(image.shape[2]))
     print()
     
-def LDA_class(image,image02):    
-    glcm_imagem = greycomatrix(image[0:128,0:128,0], [1], [0, np.pi/2], levels=256)
-    A = image[0:128,0:128,0]
-    B = glcm_imagem[0:128,0,0,0]
-    clf = LinearDiscriminantAnalysis()
-    clf.fit(A,B)
-    v = []
-    for i in range(128):
-        C = glcm_imagem[0:128,i,0,0]
-        v.insert(i,clf.score(A,C))
-    plt.plot(v)
-    plt.xlabel('Amostra')
-    plt.ylabel('Acurárica')
