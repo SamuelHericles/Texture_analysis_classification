@@ -1,4 +1,4 @@
-function gabor = filtro_gabor(imagens,wavelenght,orientation)
+function [gabor,gabor_mag,gabor_phase] = filtro_gabor(imagens,wavelenght,orientation)
     
     disp('Filtros de gabor')
 
@@ -10,7 +10,12 @@ function gabor = filtro_gabor(imagens,wavelenght,orientation)
         temp = [mag,phase];
         k = k + 1;
         gabor{k} = temp;
+        gabor_mag{k} = mag;
+        gabor_phase{k} = phase;
     end
-    gabor = gabor';
+    gabor = gabor';        
+    gabor_mag = gabor_mag';
+    gabor_phase = gabor_phase';
+    
    
 end

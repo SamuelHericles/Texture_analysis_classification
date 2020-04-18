@@ -9,11 +9,9 @@ function fft_img = fft_imagens(imagens)
         temp = fft(imagens{z});
         k = k + 1;
         fft_img{k} = temp;
-        
-
-        
-        
     end
     fft_img = fft_img';
 
+
+    
 end
