@@ -1,9 +1,9 @@
 Artigos/
-Matlab/discrim/@classifier
-Matlab/discrim/@lda
-Matlab/discrim/@logda  
-Matlab/discrim/@qda
-Matlab/discrim/@softmax
+Matlab/discrim/@classifier/
+Matlab/discrim/@lda/
+Matlab/discrim/@logda/  
+Matlab/discrim/@qda/
+Matlab/discrim/@softmax/
 Matlab/discrim/mcnemar.m
 Matlab/discrim/mahalanobis.m
 Matlab/discrim/plotdr.m
@@ -12,5 +12,5 @@ Matlab/discrim/README
 Matlab/discrim/parseopt.m
 Matlab/discrim/confmat.m
 Matlab/discrim/Contents.m
-Matlab/discrim/crossval.m
+/Matlab/discrim/crossval.m
 
