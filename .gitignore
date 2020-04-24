@@ -1,1 +1,16 @@
 Artigos/
+discrim/@classifier
+discrim/@lda
+discrim/@logda  
+discrim/@qda
+discrim/@softmax
+discrim/mcnemar.m
+discrim/mahalanobis.m
+discrim/plotdr.m
+discrim/plotobs.m
+discrim/README
+discrim/parseopt.m
+discrim/confmat.m
+discrim/Contents.m
+discrim/crossval.m
+
