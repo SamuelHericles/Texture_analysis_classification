@@ -1,4 +1,8 @@
+
+# articles that read
 Artigos/
+
+# discrim files lda's libary(just not about lda)
 Matlab/discrim/@lda
 Matlab/discrim/@classifier
 Matlab/discrim/@logda

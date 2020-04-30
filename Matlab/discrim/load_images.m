@@ -1,4 +1,4 @@
-function imagens = carrega_imagens()
+function imagens = load_images()
     group = 111;
     count = 16;
     k = 0;
