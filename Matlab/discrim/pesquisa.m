@@ -37,7 +37,7 @@ length line with '1' and counting amount this lines of same length.
 %% Test - 2  
 
 %% Features vector
-if evalin("base","exist('X') ~= 1") end
+if evalin("base","exist('X') ~= 1")
     X = []; 
 end
 
